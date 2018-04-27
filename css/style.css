@@ -161,7 +161,7 @@ padding: 4em 0em;
     float: left;
     margin-left: 2em;
     padding-left: 4em;
-    border-left: 2px solid #ccc;
+    border-left: 2px solid #b0d2ff;
 }
 
 .timeline .experience-info h5 {
@@ -187,7 +187,7 @@ padding: 4em 0em;
 .timeline time {
     display: block;
     width: 4.111em;
-    color: #ccc;
+    color: rgb(92, 92, 92);
     text-align: center;
     font-weight: 700;
 }
@@ -203,15 +203,15 @@ padding: 4em 0em;
 .timeline .experience .circle {
     position: absolute;
     top: 1em;
-    left: -0.86em;
+    left: -0.93em;
     display: block;
     width: 1.222em;
     height: 1.222em;
-    border: 3px solid #ccc;
+    border: 5px solid #b0d2ff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: #F5F5F5;
+    background-color: rgb(255, 246, 117);
 }
 
 .timeline .experience-img {
