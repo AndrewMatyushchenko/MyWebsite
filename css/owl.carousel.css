@@ -66,7 +66,7 @@
 	-o-border-radius: 50px;
 }
 .group_1_img .ui {
-	padding: 1.5em 1.7em;
+	padding: 1.55em 0.8em;
 	color:#fff;
 	background: #FF605F;
 	float: left;
@@ -79,7 +79,7 @@
 	text-shadow: 0px 0px 2px #fff;
 }
 .group_1_img .ux {
-	padding: 1.5em 1.55em;
+	padding: 1.55em 1.4em;
 	color: #5EC2E7;
 	background: rgba(230, 231, 231, 0.56);
 	float: left;
@@ -94,7 +94,7 @@
 }
 .group_1_img .fontend
 {
-	padding: 2.283em 0.4em;
+	padding: 2.3em 0.4em;
 	font-size: 2.1em;
 	background: #34CF75;
 	color: #FFF;
@@ -102,7 +102,7 @@
 }
 .group_1_img .core
 {
-	padding: 1.75em 1.2em;
+	padding: 1.8em 1em;
 	background: #35AFBA;
 	font-size: 2.5em;
 }
