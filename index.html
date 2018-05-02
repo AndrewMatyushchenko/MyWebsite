@@ -479,34 +479,36 @@
 	<div class="contact" id="contact">
 		<div class="wrap">
 			<h3 class="heading">Contact</h3>
-			<form>
+			<form id = "form">
 				<div class="left-form">
 					<ul>
 						<li class="name">
 							<a href="#" class="icon user"> </a>
-							<input type="text" placeholder="Username" required="">
+							<input type="text" name = "name"placeholder="Your name" required="">
 							<div class="clear"> </div>
 						</li> 
 						<li class="email">
 							<a href="#" class="icon mail"> </a>
-							<input type="email" placeholder="Email" required="">
+							<input type="email" name= "email"placeholder="Email" required="">
 							<div class="clear"> </div>
 						</li> 
 							<div class="clear"> </div>
 						<li>
-							<input type="text" placeholder="Cost of your project" required="">
+							<input type="text" name = "subject" placeholder="Subject" required="">
 							<div class="clear"> </div>
 						</li> 
-						<li>
+						<!--<li>
 							<input type="text" placeholder="Timeline" required="">
 							<div class="clear"> </div>
-						</li> 
+						</li> -->
 						<li>
-							<textarea class="plain buffer" placeholder="Don't forget that kindness is all!"> Don't forget that kindness is all!</textarea>
+							<textarea class="plain buffer" name = "messageF" placeholder="Your message" required=""></textarea>
 							<div class="clear"> </div>
 						</li> 
 						<div class="send">
-								<a href="avm15031979@avm.zzz.com.ua">SEND</a>
+								<!--<a href="mail.php">SEND</a>-->
+
+								<button>SEND</button>
 						</div>
 					</ul>
 				</div>
@@ -585,7 +587,6 @@
 		<script type="text/javascript" src="js/easing.js"></script>
 	    <script type="text/javascript">
 			$(document).ready(function() {
-			
 				var defaults = {
 		  			containerID: 'toTop', // fading element id
 					containerHoverID: 'toTopHover', // fading element hover id
